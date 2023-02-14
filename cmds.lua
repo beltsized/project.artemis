@@ -18,7 +18,7 @@ local SUBTYPE_ENUMS = {
 
 local FAIL_ENUMS    = {
     ['slots']        = 'Slots value is greater than 25 or less than 1.',
-    ['seed']         = 'Client-seed value is improperly formatted.',
+    ['game-id']      = 'Game-id value is improperly formatted.',
     ['non-customer'] = 'That user is not a customer.',
     ['failure']      = 'The `Artemis API` failed to process the request, please retry.'
 }
